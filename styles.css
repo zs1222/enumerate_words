@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    color: #888877;
+}
+
+html {
+    font-style: url(fonts/body) >;
+    direction: rtl;
+}
+
+.html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-image: url("images/golden-background.jpg");
+    background-size: cover;
+    background-color: burlywood;
+    background-blend-mode: multiply;
+    padding-bottom: 35px;
+    padding-top: 0;
+    text-align: center;
+}
+
+.page-name,
+page-name-large {
+    padding-inline-end: 1em;
+    text-align: center;
+    font-size: 5em;
+    margin: 0;
+    font-family: <link "https://fonts.googleapis.com/css2?family=Kufam:wght@900&display=swap">;
+    font-weight: normal;
+    color: black;
+}
+
+.container {
+    word-spacing: 7px;
+    line-height: 3;
+    font-size: xx-large;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.custom-list {
+    column-count: 9;
+    font-size: small;
+}
+
+.custom-list a:hover {
+    background-color: lightpink;
+}
+
+.custom-list a {
+    text-decoration: none;
+}
+
+/** bootstrap popup css:Start **/
+.data_list {
+    font-size: 15px;
+    /* text-align: right; */
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    padding: 10px 20px;
+}
+
+.data_list p {
+    margin: 0;
+    line-height: 25px;
+}
+
+.data_list span {
+    display: block;
+    line-height: 25px;
+}
+
+.modal-footer {
+    line-height: initial;
+}
+/** bootstrap popup css:End **/
